@@ -11,7 +11,7 @@ if platform.system() == "Windows":
     pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Path to your PDF file
-PDF_file = Path(r"D:\my_project_folder\pdf_files\d.pdf")
+PDF_file = Path(r"d.pdf")
 
 def extract_info(text):
     """Extracts relevant information from the text."""
